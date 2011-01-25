@@ -1,4 +1,6 @@
 Mrproto::Application.routes.draw do
+  get "users/new"
+
   root :to => 'pages#home'
 
   # The priority is based upon order of creation:
