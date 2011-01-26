@@ -1,5 +1,13 @@
 <h1>Management Portal</h1>
 <p>
   This is the home page of our Management Portal.
+
+	<div class="reportselection">	
+		<ul>
+			<% if signed_in? %>
+			<li><a href="#">Sales Summary by Location - PS451</a></li>
+			<% end %>
+		</ul>
+	</div>
 </p>
 

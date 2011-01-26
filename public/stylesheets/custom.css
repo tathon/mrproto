@@ -163,4 +163,35 @@ td.sidebar {
   list-style: square;
 }
 
+/* Reports Selection */
+
+.reportselection {
+  background-color: #eee;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+.reportselection ul {
+  margin: 0;
+  padding: 0;
+}
+
+.reportselection ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+.reportselection ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.reportselection ul li a:visited {
+  color: #09c;
+}
+
+.reportselection ul li a:hover {
+  text-decoration: underline;
+}
 
