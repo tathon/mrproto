@@ -10,7 +10,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110125092317) do
+ActiveRecord::Schema.define(:version => 20110126064341) do
+
+  create_table "ps451as", :force => true do |t|
+    t.string   "regioncode"
+    t.string   "loccode"
+    t.string   "locdesc"
+    t.integer  "invcnt"
+    t.integer  "qty"
+    t.integer  "orgamt"
+    t.integer  "netamt"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"

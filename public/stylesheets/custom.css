@@ -195,3 +195,13 @@ td.sidebar {
   text-decoration: underline;
 }
 
+/* PS451a */
+
+ul.ps451a {
+	margin-top: 1em;
+}
+
+.ps451a li {
+	list-style: none;
+}
+

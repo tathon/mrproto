@@ -24,7 +24,7 @@ describe PagesController do
   		it "should not have link to 'PS451'" do
   			get :home
 				response.should_not have_selector("a",
-																					:href => "#",
+																					:href => ps451_path,
 																					:content => "PS451")  		
   		end
   	end
@@ -34,7 +34,7 @@ describe PagesController do
 				test_sign_in(@user)
 				get :home
 				response.should have_selector("a",
-																			:href => "#",
+																			:href => ps451_path,
 																			:content => "PS451")  		
 			end
   	end
